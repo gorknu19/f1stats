@@ -4,5 +4,5 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  return <main className={`flex min-h-screen`}></main>;
+  return <main className={`flex min-h-screen bg-slate-600`}></main>;
 }
